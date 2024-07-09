@@ -1,16 +1,17 @@
 package com.tia102test.dept.model;
 
 public class Dept {
-	private Integer no;
+	private Integer xxx;
 	private String dname;
 	private String loc;
 
 	public Integer getDeptno() {
-		return no;
+		return xxx;
 	}
 	public void setDeptno(Integer deptno) {
-		this.no = deptno;
+		this.xxx = deptno;
 	}
+	
 	public String getDname() {
 		return dname;
 	}
